@@ -1,5 +1,5 @@
 # todo: uncomment this?!
-import All_MgAlloy.alloysHT
+import All_MgAlloy.alloysHT as alloysHT
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from sklearn.gaussian_process import GaussianProcessRegressor
