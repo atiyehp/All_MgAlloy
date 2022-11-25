@@ -10,10 +10,10 @@ import random
 
 from IPython import display as disp
 if 'google.colab' in str(get_ipython()):
-    from MgOptPublic.model_paths import models
-    from MgOptPublic.BO import alloys_bayes_opt
-    from MgOptPublic.BO_append import alloys_bayes_opt_append
-    from MgOptPublic.inverse_prediction import inverse_pred
+    from All_MgAlloy.model_paths import models
+    from All_MgAlloy.BO import alloys_bayes_opt
+    from All_MgAlloy.BO_append import alloys_bayes_opt_append
+    from All_MgAlloy.inverse_prediction import inverse_pred
 else:
     from model_paths import models
     from BO import alloys_bayes_opt
